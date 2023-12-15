@@ -4,6 +4,7 @@ import HomePage from "./components/HomePage";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
+  console.log("halhsdlfhlsdfh");
   return (
     <div className="App">
       <Routes>
