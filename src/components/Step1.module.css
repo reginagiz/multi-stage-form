@@ -1,0 +1,33 @@
+.form {
+  flex-grow: 1;
+}
+.form label {
+  margin-bottom: 8px;
+}
+.field_block {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-bottom: 24px;
+}
+.field_input {
+  flex-grow: 1;
+}
+.button_block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+.selector {
+  color: rgba(0, 0, 0, 0.48);
+  font-weight: 400;
+  line-height: 20px;
+  display: flex;
+  padding: 12px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+  border-radius: 4px;
+  border: 1px solid var(--Black-Alpha-Alpha-16, rgba(0, 0, 0, 0.16));
+  background: var(--Grey-0-White, #fff);
+}
