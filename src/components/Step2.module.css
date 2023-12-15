@@ -1,0 +1,50 @@
+.form {
+  flex-grow: 1;
+}
+.form label {
+  margin-bottom: 8px;
+}
+.checkbox_group_chek,
+.radio_group_radio {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+.checkbox_group,
+.radio_group {
+  margin-top: 24px;
+}
+.field_block {
+  display: flex;
+}
+.field_input {
+  width: 300px;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+.button_block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+.advantages {
+  display: flex;
+  flex-direction: column;
+}
+
+.remove_button {
+  border: none;
+  background-color: inherit;
+}
+.add_button {
+  border-radius: 4px;
+  border-color: #5558fa;
+  background-color: inherit;
+  width: 44px;
+  height: 44px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 8px;
+}
